@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-//go:generate sh -c "bash $GARDENER_HACK_DIR/generate-imagename-constants.sh"
+//go:generate sh -c "bash $TOOLS_HACK_DIR/generate-imagename-constants.sh"
 package imagevector
 
 import (

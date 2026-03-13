@@ -13,7 +13,7 @@ echo "> Check Skaffold Dependencies"
 check_successful=true
 
 function check() {
-  if ! bash "$GARDENER_HACK_DIR"/check-skaffold-deps-for-binary.sh "$operation" --skaffold-file "$1" --binary "$2" --skaffold-config "$3"; then
+  if ! bash "$TOOLS_HACK_DIR"/check-skaffold-deps-for-binary.sh "$operation" --skaffold-file "$1" --binary "$2" --skaffold-config "$3"; then
     check_successful=false
   fi
 }

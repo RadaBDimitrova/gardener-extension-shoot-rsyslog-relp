@@ -1,0 +1,2 @@
+"skaffold.yaml" "gardener-extension-shoot-rsyslog-relp" "extension"
+"skaffold.yaml" "gardener-extension-shoot-rsyslog-relp-admission" "admission"
